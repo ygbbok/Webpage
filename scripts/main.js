@@ -21,7 +21,7 @@ while(rs.EOF != true)
 }
 
 
-rs.MoveFirst();
+/*rs.MoveFirst();
 var body = document.getElementsByTagName('body')[0];
 var tbl = document.createElement('table');
 tbl.style.width = '100%';
@@ -43,7 +43,7 @@ for (var i = 0; i < 3; i++) {
     tbdy.appendChild(tr);
 }
 tbl.appendChild(tbdy);
-body.appendChild(tbl)
+body.appendChild(tbl)*/
 
 rs.close();
 connection.close();
